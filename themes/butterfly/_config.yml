@@ -200,7 +200,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href:
+  author_href:  https://betteryuan.cn
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -514,7 +514,7 @@ search:
 share:
   # Choose: sharejs / addtoany
   # Leave it empty if you don't need share
-  use: sharejs
+  use: false
 
   # Share.js
   # https://github.com/overtrue/share.js
