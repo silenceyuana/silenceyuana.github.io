@@ -1,0 +1,44 @@
+
+/* 页脚 Footer 渐变 */
+#footer {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%) !important;
+}
+
+/* 侧边栏卡片背景渐变（可选） */
+#aside-content .card-widget {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%) !important;
+}
+
+
+/* ====================
+   2. 隐藏不想看到的文字
+   ==================== */
+/* 隐藏 "框架 Hexo ... | 主题 Butterfly ..." */
+/* 我们使用更通用的选择器来隐藏它 */
+#footer-wrap .copyright + .framework-info {
+    display: none !important;
+}
+#footer-wrap .framework-info {
+    display: none !important;
+}
+
+
+/* ====================
+   3. 调整页脚间距 (紧凑模式)
+   ==================== */
+#footer-wrap {
+    padding: 20px 20px !important;
+    line-height: 1.6 !important;
+}
+
+/* 去掉版权信息的默认边距 */
+#footer-wrap .copyright {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 调整我们自定义添加的 div 的间距 */
+#footer-wrap > div {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+}
