@@ -104,3 +104,6 @@ deploy:
   type: git
   repository: git@github.com:silenceyuana/silenceyuana.github.io.git
   branch: main
+
+marked:
+  external_link: true

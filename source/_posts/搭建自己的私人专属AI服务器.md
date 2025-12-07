@@ -35,8 +35,8 @@ Ollama 是负责运行 AI 模型的后台服务。
 
 1.  **下载**：访问 [Ollama 官网](https://ollama.com/) 下载 Windows 版并安装。
 2.  **验证**：打开 CMD（命令提示符），输入 `ollama`，有反应即成功。
-！[olloma响应](https://img.betteryuan.cn/olloma1.png)
-！[olloma页面](https://img.betteryuan.cn/olloma.png)
+![olloma响应](https://img.betteryuan.cn/olloma1.png)
+![olloma页面](https://img.betteryuan.cn/olloma.png)
 3.  **下载模型**：在 CMD 中输入以下命令下载你的目标模型：
     ```bash
     ollama pull gpt-oss:20b

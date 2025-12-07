@@ -421,6 +421,7 @@ anchor:
   click_to_scroll: false
 
 photofigcaption: false
+external_img: true
 
 copy:
   enable: true
